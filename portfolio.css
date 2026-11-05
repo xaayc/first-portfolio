@@ -1311,3 +1311,24 @@ hr {
   height: 1.2px;
   background-color: rgb(44, 44, 44);
 }
+@media (min-width: 50px) and (max-width: 359px) {
+  .div-contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-info-text {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 424px) {
+  .div-contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-info-text {
+    display: flex;
+    flex-direction: column;
+  }
+}
