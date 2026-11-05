@@ -1176,7 +1176,6 @@ a {
 }
 
 .contact-info-mail {
-  background-color:;
   height: 400px;
   align-items: center;
   justify-self: center;
@@ -1320,22 +1319,189 @@ hr {
     display: flex;
     flex-direction: column;
   }
+
+  .contact-info-mail {
+    height: 400px;
+    align-items: center;
+    justify-self: center;
+  }
+  textarea {
+    resize: none;
+  }
+  .firstName,
+  .lastName {
+    width: 144px;
+    height: 40px;
+    padding-left: 10px;
+    border-color: #b6ff2e;
+    border-style: solid;
+    border-radius: 15px;
+    outline: none;
+  }
+  .email {
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    border-color: #b6ff2e;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: #23262f;
+    outline: none;
+  }
+
+  input,
+  textarea:placeholder-shown {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  textarea {
+    width: 300px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-color: #b6ff2e;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: #d2d6e0;
+    outline: none;
+  }
+
+  .div-contact-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-self: center;
+  }
+  .contact-info-mail {
+    margin-top: 80px;
+  }
+  .contact-info-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-info-email {
+    gap: 0.5rem;
+    display: flex;
+  }
+
+  .contact-info-call {
+    position: relative;
+    gap: 1rem;
+    display: flex;
+    right: rem;
+  }
+
+  .contact-info-location {
+    position: relative;
+    display: flex;
+    top: 0px;
+    right: 0rem;
+    gap: 0.5rem;
+  }
+
+  .contact-info-hours {
+    position: relative;
+    display: flex;
+    top: 0px;
+    right: 0rem;
+    gap: 0.5rem;
+  }
 }
 
 @media (min-width: 360px) and (max-width: 424px) {
   .div-contact-info {
     display: flex;
     flex-direction: column;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-self: center;
+  }
+  .contact-info-mail {
+    margin-top: 80px;
   }
   .contact-info-text {
     display: flex;
     flex-direction: column;
   }
+  .contact-info-email {
+    gap: 0.5rem;
+    display: flex;
+  }
+
+  .contact-info-call {
+    position: relative;
+    gap: 1rem;
+    display: flex;
+    right: rem;
+  }
+
+  .contact-info-location {
+    position: relative;
+    display: flex;
+    top: 0px;
+    right: 0rem;
+    gap: 0.5rem;
+  }
+
+  .contact-info-hours {
+    position: relative;
+    display: flex;
+    top: 0px;
+    right: 0rem;
+    gap: 0.5rem;
+  }
 }
 @media (min-width: 425px) and (max-width: 599px) {
   .div-contact-info {
+   display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-self: center;
+  }
+  .contact-info-mail {
+    margin-top: 80px;
+  }
+  .contact-info-text {
     display: flex;
     flex-direction: column;
+  }
+
+   }
+  .contact-info-email {
+    gap: 0.5rem;
+    display: flex;
+  }
+
+  .contact-info-call {
+    position: relative;
+    gap: 1rem;
+    display: flex;
+    right: rem;
+  }
+
+  .contact-info-location {
+    position: relative;
+    display: flex;
+    top: 0px;
+    right: 0rem;
+    gap: 0.5rem;
+  }
+
+  .contact-info-hours {
+    position: relative;
+    display: flex;
+    top: 0px;
+    right: 0rem;
+    gap: 0.5rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 767px) {
+  .div-contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-info-mail {
+    margin-top: 80px;
   }
   .contact-info-text {
     display: flex;
